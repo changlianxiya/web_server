@@ -37,8 +37,8 @@ func main() {
 	var argName string
 	var argValue string
 	var thisArg string
-	var ipaddress = "127.0.0.1"
-	var port = "80"
+	var ipaddress = "0.0.0.0"
+	var port = "808"
 	//http.Dir(".")
 	var workdir = "/var/www/html"
 	for i := 1; i < len(osargs); i++ {
